@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project using css</title>
+<style type="text/css">
+div{
+	float: left;
+	font-family: sans-serif;
+
+}
+.container{
+	margin: 40px;
+}
+#logo{
+width: 450px;
+height:90px;
+margin-left: 25px;
+margin-top: 10px;
+}
+#login{
+height:80px;
+width:608px;
+padding-left: 220px;
+padding-top: 10px; 
+}
+#div_6{
+clear: both;
+height: 550px;
+width: 600px;
+margin-left: 30px;
+}
+#div_7{
+	height: 500px;
+	width:600px;
+	margin-left: 72px;
+}
+.header{
+	background-color: #3b5998;
+	height: 100px;
+}
+img{
+	width: 200px;
+height:80px;
+}
+input{
+	padding: 5px;
+}
+#map_img{
+	width: 500px;
+	height: 300px;
+}
+.body{
+	background-color: #f0f5f5;
+}
+
+#td1{
+	padding-left: 30px;
+	font-size: 5px;
+}
+#create_btn{
+		    width: 200px;
+			height: 40px;
+			background-image: linear-gradient(#90ee90,#00ff7f,#006400);
+			border-radius: 10px;
+			color: white;
+			font-size: 13px;
+			font-weight: bold;
+			margin-left: 25px;
+			border:2px solid #006400; 
+     		}
+#btn_login{
+	width: 50px;
+			height: 20px;
+			background-image: linear-gradient(#42647F,#517693);
+			border-radius: 3px;
+			color: white;
+			font-size: 8px;
+			font-weight: bold;
+			margin-left: 5px;
+			border:1px solid #006400; 
+}
+span{
+       	font-size :10px;
+       	color: blue;
+       	display: inline-block;
+       	width: 120px;
+       }
+#tb_login{
+   height: 50px;
+}
+#tb_login td{
+	color: white;
+}
+#tb_login label{
+font-size: 13px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+    <div class="header">
+	   <div id="logo"><img src="fb_logo.png"></div>
+	   <div id="login">
+	   	<form><table id="tb_login"><tr>
+	   		<td><label>Email or Phone number</label></td><td><label>Password</label></td><td id="td2"></td><tr>
+			<tr><td><input type="text" name="Email"></td><td><input type="Password" name="Password"></td>
+				<td>
+					<button type="button" id="btn_login">Log In</button>
+				</td>
+			</tr>
+			<tr><td></td><td><a href=""><font color="white"><label>Forgotten Account</label></font></a></td></font>
+			</table>
+		</form>
+	   </div>
+	</div>
+	<div class="body">
+	<div id="div_6"><center><h2>Facebook help you to connect and share with the people in your life.</h2>
+		<img src="mapfb.png" id="map_img">
+		</center>
+	</div>
+	<div id="div_7">
+		<h1 align="center">Create an Account</h1>
+		<p>It's free alwayz free and alwayz will be.</p>
+		<input type="text" name="fname" placeholder="First Name" size="15">
+		<input type="text" name="lname" placeholder="Last Name" size="15"><br><br>
+		<input type="text" name="Mobile Number" placeholder="Mobile Number" size="37"><br><br>
+		<input type="text" name="Email" placeholder="Email" size="37"><br><br>
+		<input type="text" name="Password" placeholder="Password" size="37"><br><br>
+		<b>Birthday</b><br>
+		<select><option value="Day">Day</option></select>
+		<select><option value="Month">Month</option></select>
+		<select><option value="Year">Year</option></select><br><br>
+		GENDER:<input type="radio" name="gender" value="female">Female
+		<input type="radio" name="gender" value="male">Male
+		<span>Why do i need to provide my Date of Birth?</span></p>
+		<font size="2">By Clicking an account you agree to our<a href="www.erms.com"> Terms </a>and that you have read our <a href="www.datapolicy.com" >Data policy.</a>incliding our Cookie use. <br><br>
+		<button type="button" id="create_btn">Create an Account</button>
+<p><a href="www.create.com">Create a page</a> for celebrity,band or business.</p>	
+	</div>
+	</div>
+	</div>
+</body>
+</html>
